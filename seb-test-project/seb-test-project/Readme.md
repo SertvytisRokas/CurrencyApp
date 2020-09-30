@@ -27,6 +27,7 @@ localhost:8080/exchange?from={user input}&to={user input}&amount={user input}
 * **from** - the ccy code of the currency which is being exchanged
 * **to** - the ccy code of the currency to what the value has to be exchanged
 * **amount** - the value which is being exchanged  
+  
 Example url address:  
 localhost:8080/exchange?from=AUD&to=CAD&amount=20  
 The program will output the value of 20 Australian dollars in Canadian dollars and at what rate the exchange was made.
@@ -39,6 +40,7 @@ localhost:8080/exchangeOverPeriod?ccy={user input}&from={user input}&to={user in
 * **ccy** - the ccy code of the currency that is being checked
 * **from** - from what date the currency needs to be checked
 * **to** - until what date the currency needs to be checked  
+  
 Example url address:  
 localhost:8080/exchangeOverPeriod?ccy=AUD&from=2015-01-01&to=2015-02-01  
 The program will check and output what was Australian dollars's exchange rate to Euro in 2015-01-01 and whether it has increased or decreased by 2015-02-01

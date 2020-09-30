@@ -20,7 +20,7 @@ The software consists of multiple plugins and libraries which are imported to th
 In order to check all possible currencies and their exchange rates from Euro, while the program is running, user has to enter the url address in their browser (localhost:8080/displayAll).
 
 ### Exchange
-To check the value in another currency, the user has to enter an url in a following format:
+To check the value in another currency, the user has to enter an url in a following format:  
 localhost:8080/exchange?from={user input}&to={user input}&amount={user input}
 
 #### Fields

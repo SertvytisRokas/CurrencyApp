@@ -1,0 +1,29 @@
+
+<html>
+<title>
+    Web Application
+</title>
+
+<body>
+<h3>Currency exchange check</h3>
+
+<h4>Display all currencies and exchange rates</h4>
+<form action="/webApp/rest/exchange/displayAll" method="POST">
+    <input type="submit" value="Show">
+</form>
+
+<br>
+<h4>Single currency exchange</h4>
+<form action="/webApp/rest/exchange/exchangeSingle" method="POST">
+    <p>
+        Enter Ccy values to exchange: <br>
+        From: <input type="text" name="from"><br>
+        To: <input type="text" name="to"><br>
+        <input type="submit" value="Exchange">
+    </p>
+</form>
+
+
+</body>
+
+</html>
